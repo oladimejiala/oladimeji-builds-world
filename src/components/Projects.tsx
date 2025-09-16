@@ -24,13 +24,13 @@ const Projects = () => {
       category: "Data Science"
     },
     {
-      title: "AMTECH-BJ Company Website",
-      description: "Professional company website for AMTECH-BJ showcasing services, portfolio, and client testimonials. Built with modern web technologies.",
-      technologies: ["HTML5", "CSS3", "JavaScript", "Responsive Design"],
-      githubUrl: "https://github.com/oladimejiala/amtechbj",
+      title: "Schistosoma Ova Detection & Count (SODaC)",
+      description: "Deep Learning model to screen urine and stool samples from schistosomiasis endemic communities to determine prevalence and intensity of Schistosoma species ova.",
+      technologies: ["Deep Learning", "Computer Vision", "Python", "Medical Imaging", "Disease Detection"],
+      githubUrl: "https://github.com/oladimejiala/Schistosoma-Ova-Detect-and-Count-SODaC-",
       liveUrl: "#",
       featured: true,
-      category: "Web Development"
+      category: "Machine Learning"
     },
     {
       title: "MaLLad Educational Game",
