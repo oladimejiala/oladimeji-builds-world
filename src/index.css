@@ -97,6 +97,10 @@ All colors MUST be HSL for consistency and theming.
     --sidebar-border: 220 13% 91%;
 
     --sidebar-ring: 217.2 91.2% 59.8%;
+    
+    /* Custom footer colors */
+    --footer-dark-blue: 210 30% 8%;
+    --footer-dark-grey: 210 10% 15%;
   }
 
   .dark {

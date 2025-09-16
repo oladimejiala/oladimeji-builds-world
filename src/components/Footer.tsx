@@ -39,13 +39,13 @@ const Footer = () => {
   ];
 
   return (
-    <footer className="bg-primary text-primary-foreground">
+    <footer className="bg-[hsl(var(--footer-dark-blue))] text-white">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid md:grid-cols-3 gap-8">
           {/* Brand Section */}
           <div className="space-y-4">
             <h3 className="text-2xl font-bold">Oladimeji Alabi</h3>
-            <p className="text-primary-foreground/80 max-w-sm">
+            <p className="text-white/80 max-w-sm">
               Data Scientist & ML Engineer passionate about solving real-world problems 
               through innovative technology solutions.
             </p>
@@ -56,7 +56,7 @@ const Footer = () => {
                   href={social.url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="p-2 bg-primary-foreground/10 hover:bg-primary-foreground/20 rounded-lg transition-colors duration-200"
+                  className="p-2 bg-white/10 hover:bg-white/20 rounded-lg transition-colors duration-200"
                   aria-label={social.label}
                 >
                   {social.icon}
@@ -73,7 +73,7 @@ const Footer = () => {
                 <a
                   key={index}
                   href={link.href}
-                  className="text-primary-foreground/80 hover:text-primary-foreground transition-colors duration-200"
+                  className="text-white/80 hover:text-white transition-colors duration-200"
                 >
                   {link.label}
                 </a>
@@ -84,11 +84,11 @@ const Footer = () => {
           {/* Contact Info */}
           <div className="space-y-4">
             <h4 className="text-lg font-semibold">Get In Touch</h4>
-            <div className="space-y-2 text-primary-foreground/80">
+            <div className="space-y-2 text-white/80">
               <p>
                 <a 
                   href="mailto:oladimejialabim@gmail.com"
-                  className="hover:text-primary-foreground transition-colors"
+                  className="hover:text-white transition-colors"
                 >
                   oladimejialabim@gmail.com
                 </a>
@@ -96,7 +96,7 @@ const Footer = () => {
               <p>
                 <a 
                   href="tel:+22991134672"
-                  className="hover:text-primary-foreground transition-colors"
+                  className="hover:text-white transition-colors"
                 >
                   +229 91 13 46 72
                 </a>
@@ -107,21 +107,21 @@ const Footer = () => {
         </div>
 
         {/* Bottom Section */}
-        <div className="border-t border-primary-foreground/20 mt-8 pt-8">
+        <div className="border-t border-white/20 mt-8 pt-8 -mx-4 sm:-mx-6 lg:-mx-8 px-4 sm:px-6 lg:px-8 bg-[hsl(var(--footer-dark-grey))]">
           <div className="flex flex-col md:flex-row justify-between items-center">
-            <p className="text-primary-foreground/60 text-sm">
+            <p className="text-white/60 text-sm">
               © {currentYear} Oladimeji Alabi. All rights reserved.
             </p>
             <div className="flex space-x-6 mt-4 md:mt-0">
               <a 
                 href="#" 
-                className="text-primary-foreground/60 hover:text-primary-foreground text-sm transition-colors"
+                className="text-white/60 hover:text-white text-sm transition-colors"
               >
                 Privacy Policy
               </a>
               <a 
                 href="#" 
-                className="text-primary-foreground/60 hover:text-primary-foreground text-sm transition-colors"
+                className="text-white/60 hover:text-white text-sm transition-colors"
               >
                 Terms of Service
               </a>
