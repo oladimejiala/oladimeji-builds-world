@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowDown, Download, Github, Linkedin, ExternalLink } from "lucide-react";
-import authorPhoto from "@/assets/author-photo.jpg";
+import heroImage from "@/assets/hero-image.jpg";
 
 const Hero = () => {
   return (
@@ -10,7 +10,7 @@ const Hero = () => {
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: `url(${authorPhoto})`,
+          backgroundImage: `url(${heroImage})`,
         }}
       ></div>
       
