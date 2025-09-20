@@ -33,8 +33,8 @@ const About = () => {
           <div className="text-center mb-16 fade-in">
             <h2 className="section-header">About Me</h2>
             <p className="section-subheader">
-              Dedicated professional with expertise in data science, machine learning, 
-              and software development, focused on solving real-world problems through technology.
+                 Dedicated professional with expertise in data science, software development, 
+                and machine learning, focused on solving real-world problems through technology.
             </p>
           </div>
 
@@ -52,9 +52,9 @@ const About = () => {
               </p>
               
               <p className="text-lg text-muted-foreground leading-relaxed">
-                My expertise spans SQL, Python, SPSS, and data integrity practices. I'm adept at 
-                troubleshooting data environments, supporting data warehouse operations, and driving 
-                ML/AI initiatives that deliver tangible business value.
+                 My expertise spans SQL, Python, SPSS, and data integrity practices. I'm adept at 
+                troubleshooting data environments, supporting data warehouse operations, and developing 
+                software solutions that deliver tangible business value.
               </p>
               
               <p className="text-lg text-muted-foreground leading-relaxed">

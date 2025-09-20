@@ -20,7 +20,7 @@ const Hero = () => {
           <div className="fade-in">
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
               Data Scientist &amp; 
-              <span className="block text-secondary">ML Engineer</span>
+              <span className="block text-secondary">Software Developer</span>
             </h1>
             
             <p className="text-xl md:text-2xl mb-8 text-white/90 max-w-3xl mx-auto leading-relaxed">
